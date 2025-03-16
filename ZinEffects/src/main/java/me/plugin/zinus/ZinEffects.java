@@ -9,8 +9,8 @@ public final class ZinEffects extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getCommand("effect").setExecutor(new ZinEffects_Command());
-        getCommand("effect").setTabCompleter(new ZinEffects_Tab());
+        getCommand("effect").setExecutor(new CommandEffect());
+        getCommand("effect").setTabCompleter(new CommandEffect());
         Bukkit.getLogger().info(ChatColor.GREEN + "Плагин запущен!");
     }
 
