@@ -21,7 +21,7 @@ public class ZinEffects_Tab implements TabCompleter {
         }
         if (strings.length == 1){
             return List.of(
-                    "Нік гравця"
+                    "Ник игрока"
             );
         }
 
