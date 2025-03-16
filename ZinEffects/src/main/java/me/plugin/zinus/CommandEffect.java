@@ -33,8 +33,8 @@ public class CommandEffect implements CommandExecutor {
                 player.addPotionEffect(new PotionEffect(PotionEffectType.HUNGER, 120, 999));
                 sender.sendTitle(ChatColor.GREEN + " ☑ Успешно","",10,40,10);
                 commandSender.sendMessage(ChatColor.GREEN + "☑ Успешное использование команды");
-
                 return true;
+                break;
             case "good":
                 player.addPotionEffect(new PotionEffect(PotionEffectType.HEALTH_BOOST, 120, 999));
                 player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 120, 999));
@@ -43,6 +43,7 @@ public class CommandEffect implements CommandExecutor {
                 sender.sendTitle(ChatColor.GREEN + " ☑ Успешно","",10,40,10);
                 commandSender.sendMessage(ChatColor.GREEN + "☑ Успешное использование команды");
                 return true;
+                break;
             case "normal":
                 player.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 120, 999));
                 player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 120, 999));
@@ -50,6 +51,7 @@ public class CommandEffect implements CommandExecutor {
                 sender.sendTitle(ChatColor.GREEN + " ☑ Успешно","",10,40,10);
                 commandSender.sendMessage(ChatColor.GREEN + "☑ Успешное использование команды");
                 return true;
+                break;
         }
 
         return false;
