@@ -28,8 +28,8 @@ public class ZinEffects_Command implements CommandExecutor {
             player.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 120, 999));
             player.addPotionEffect(new PotionEffect(PotionEffectType.BAD_OMEN, 120, 999));
             player.addPotionEffect(new PotionEffect(PotionEffectType.HUNGER, 120, 999));
-            sender.sendTitle(ChatColor.GREEN + " ☑ Успішно","",10,40,10);
-            commandSender.sendMessage(ChatColor.GREEN + "☑ Успішне використання команди");
+            sender.sendTitle(ChatColor.GREEN + " ☑ Успешно","",10,40,10);
+            commandSender.sendMessage(ChatColor.GREEN + "☑ Успешное использование команды");
 
             return true;
 
@@ -38,16 +38,16 @@ public class ZinEffects_Command implements CommandExecutor {
             player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 120, 999));
             player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 120, 999));
             player.addPotionEffect(new PotionEffect(PotionEffectType.HEAL, 120, 999));
-            sender.sendTitle(ChatColor.GREEN + " ☑ Успішно","",10,40,10);
-            commandSender.sendMessage(ChatColor.GREEN + "☑ Успішне використання команди");
+            sender.sendTitle(ChatColor.GREEN + " ☑ Успешно","",10,40,10);
+            commandSender.sendMessage(ChatColor.GREEN + "☑ Успешное использование команды");
             return true;
 
         } else if (effect.equalsIgnoreCase("normal")) {
             player.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 120, 999));
             player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 120, 999));
             player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 120, 999));
-            sender.sendTitle(ChatColor.GREEN + " ☑ Успішно","",10,40,10);
-            commandSender.sendMessage(ChatColor.GREEN + "☑ Успішне використання команди");
+            sender.sendTitle(ChatColor.GREEN + " ☑ Успешно","",10,40,10);
+            commandSender.sendMessage(ChatColor.GREEN + "☑ Успешное использование команды");
             return true;
 
         }
