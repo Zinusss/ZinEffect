@@ -17,7 +17,7 @@ import java.util.List;
 
 import static org.bukkit.Bukkit.getPlayer;
 
-public class ZinEffects_Command implements CommandExecutor {
+public class CommandEffect implements CommandExecutor {
     @Override
 
     public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] strings) {
