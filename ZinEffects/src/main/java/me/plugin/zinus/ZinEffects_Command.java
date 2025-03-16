@@ -10,6 +10,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.Collections;
+import java.util.List;
 
 import static org.bukkit.Bukkit.getPlayer;
 
@@ -50,5 +54,22 @@ public class ZinEffects_Command implements CommandExecutor {
 
         return false;
     }
+    public @Nullable List<String> onTabComplete(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] strings) {
+        if (strings.length == 2 ){
+            return List.of(
+                    "good",
+                    "bad",
+                    "normal"
+            );
+        }
+        if (strings.length == 1){
+            return List.of(
+                    "Ник игрока"
+            );
+        }
+
+        return Collections.emptyList();
+    }
 }
+
 
