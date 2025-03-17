@@ -4,7 +4,7 @@ main: me.plugin.zinus.ZinEffects
 api-version: '1.16'
 commands:
   effect:
-    usage: [❎] Используйте - /effect <player> <effect>
+    usage: Используйте - /effect <player> <effect>
     aliases:
       - eff
       - ef
